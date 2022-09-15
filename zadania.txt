@@ -1,0 +1,102 @@
+Projekt 1. Zadania dla czwartoklasistów
+Wykonaj stronę WWW zawierającą 4 zadania z treścią przeznaczonych dla czwartoklasistów. Na stronie umieść nagłówek h1 z tekstem Zadania. Poszczególne zadania oznacz elementami h2 z tekstem zad. 1, zad. 2 itd. Treść każdego zadania jest jednym akapitem tekstu ujętym w znaczniki <p> oraz </p>.
+Zarys projektu jest widoczny na listingu .1.
+Listing 1. Projekt 1: Zadania dla czwartoklasistów
+<body>
+<h1>Zadania</h1>
+<h2>zad. 1</h2>
+<p>
+Zosia kupiła 5 kolorowych długopisów po 1,20 zł
+za sztukę i 2 zeszyty po 1,00 zł.
+Ania kupiła o dwa długopisy więcej niż Zosia,
+ale nie kupiła żadnego zeszytu.
+Która z dziewczynek zapłaciła więcej i o ile?
+</p>
+...
+</body>
+Projekt 2. Zadania tekstowe z odpowiedziami
+Wykonaj stronę WWW, która będzie prezentowała serię zadań wraz z odpowiedziami. Projekt podziel na dwie części. W pierwszej części umieść zadania, a w drugiej — odpowiedzi. Podział ten wykonaj elementem h1. W każdej z części umieść pewną liczbę zadań oznaczonych elementami h2 i p. W pierwszej części akapity mają zawierać treść zadań, a w drugiej — odpowiedzi.
+Zarys projektu jest przedstawiony na listingu 8.2.
+Listing 2. Projekt 2: Zadania tekstowe z odpowiedziami
+<h1>Zadania</h1>
+<h2>zad. 1</h2>
+<p>
+25 kg winogron kosztuje 8 złotych. Ile kosztuje 1 tona winogron?
+</p>
+...
+<h1>Odpowiedzi</h1>
+<h2>zad. 1</h2>
+<p>
+Jedna tona winogron kosztuje 320 zł.
+</p>
+...
+Projekt 3. Kolokwium z PHP
+Przygotuj stronę WWW, która będzie zawierała treść kolokwium (4 zadania) z programowania w języku PHP. W projekcie tym nagłówek informujący o dacie i tematyce kolokwium wykonaj elementami h1 oraz h2. Każde z zadań oznacz nagłówkiem h3 z numerem zadania. Treść każdego zadania może składać się z dowolnej liczby akapitów. Dodatkowo w treści zadań mogą wystąpić przykładowe kody źródłowe lub zawartość plików tekstowych. Treść plików tekstowych oraz kody programów komputerowych sformatuj przy użyciu elementu pre. Nazwy plików występujące w treści sformatuj elementami strong, zaś teksty wymagające uwypuklenia — elementami em.
+Początek projektu jest przedstawiony na listingu 8.3.
+Listing 3. Projekt 3: Kolokwium z PHP
+<h1>Pracownia programowania I</h1>
+<h2>Kolokwium<br />18 kwietnia 2007 r.</h2>
+<h3>Zadanie 1</h3>
+<p>
+Dany jest plik tekstowy o nazwie <strong>zwierzeta.txt</strong> i zawartości:
+</p>
+<pre>
+ssaki kot,lis,koń
+ptaki wróbel,wrona
+płazy żaba,rzekotka
+...
+</pre>
+<p>
+Liczba wierszy w pliku może być dowolna, separatorem kolumn jest znak tabulacji oraz przecinek. Pierwsza linijka oznacza, że do grupy zwierząt o nazwie <em>ssaki</em> należą zwierzęta <em>kot</em>, <em>lis</em> i <em>koń</em>. Napisz skrypt w PHP, który wyświetli dane z pliku <strong>zwierzeta.txt</strong> w postaci dwupoziomowej listy wypunktowanej <strong>ol</strong>.
+</p>
+Projekt 4. Adam Mickiewicz: Oda do młodości
+Przygotuj stronę WWW prezentującą utwór Adama Mickiewicza pt. Oda do młodości. Elementami h1 oraz h2 oznacz autora i tytuł utworu. Treść utworu sformatuj elementami p oraz br. Myślniki wykonaj przy użyciu znaków specjalnych &mdash;, zaś polski cudzysłów — przy użyciu znaków &bdquo; oraz &rdquo;:
+...
+Patrz na dół &mdash; kędy wieczna mgła zaciemia<br />
+...
+Jednym &bdquo;stań się&rdquo; z bożej mocy<br />
+...
+Fragment projektu jest przedstawiony na listingu 4. Zwróć uwagę, że ostatnia linijka w każdym akapicie jest pozbawiona elementu br. Tekst utworu pochodzi ze strony http://monika.univ.gda.pl/~literat/amwiersz/0004.htm.
+Listing 4. Projekt 4: Adam Mickiewicz: Oda do młodości
+<h1>Adam Mickiewicz</h1>
+<h2>Oda do młodości</h2>
+<p>
+Bez serc, bez ducha, to szkieletów ludy;<br />
+Młodości! dodaj mi skrzydła!<br />
+Niech nad martwym wzlecę światem<br />
+W rajską dziedzinę ułudy:<br />
+Kędy zapał tworzy cudy,<br />
+Nowości potrząsa kwiatem<br />
+I obleka w nadziei złote malowidła.
+</p>
+...
+Projekt 5. Adam Mickiewicz: Wiersze
+Wykonaj stronę WWW prezentującą pięć wierszy Adama Mickiewicza. Strukturę witryny, podobnie jak w poprzednim przypadku, oznacz elementami h1, h2 oraz h3:
+•	h1 — autor;
+•	h2 — tytuł kolekcji utworów;
+•	h3 — tytuł pojedynczego utworu.
+Dłuższe tytuły wierszy podziel na kilka linijek, wykorzystując do tego element br.
+Listing 5 przedstawia w zarysie początkowe akapity utworu pt. Pani Twardowska.
+Listing 5. Projekt 5: Adam Mickiewicz: Wiersze
+<h1>Adam Mickiewicz</h1>
+<h2>Wiersze</h2>
+<h3>Pani Twardowska<br />Ballada</h3>
+<p>
+Jedzą, piją, lulki palą,<br />
+...
+</p>
+<p>
+Twardowski siadł w końcu stoła.<br />
+...
+</p>
+<p>
+Żołnierzowi, co grał zucha,<br />
+...
+</p>
+...
+Utwór zatytułowany Romantyczność ma wprowadzenie: cytat pochodzący z twórczości
+Wiliama Szekspira. Język tego akapitu oznaczamy atrybutem lang:
+<p lang="en">
+Methinks, I see... Where?<br />
+- In my mind's eyes.
+</p>
