@@ -1,0 +1,32 @@
+projekt 2
+Przygotuj w formie strony WWW tabelę prezentującą laureatów Literackiej Nagrody
+Nobla w latach 1951 – 1973. Co piąty wiersz tabeli wyróżnij innym kolorem.
+Przygotuj tabelę o dwóch kolumnach. W pierwszym wierszu umieść komórki nagłówkowe
+odnoszące się do kolumn (scope="col"). Komórki pierwszej kolumny będą
+się natomiast odnosiły do wierszy (scope="row"). Zarys tabeli jest przedstawiony na
+listingu:
+<table>
+<thead>
+	<tr>
+		<th scope="col">Rok</th>
+		<th scope="col">Laureat</th>
+	</tr>
+</thead>
+<tfoot>
+	<tr>
+		<th scope="col">Rok</th>
+		<th scope="col">Laureat</th>
+	</tr>
+</tfoot>
+<tbody>
+	<tr>
+		<th scope="row">1951</th>
+		<td>P. Lagerkvist (Sz)</td>
+	</tr>
+	<tr>
+		<th scope="row">1952</th>
+		<td>F. Mauriac (F)</td>
+	</tr>
+...
+<tbody>
+</table>
