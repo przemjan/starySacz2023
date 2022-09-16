@@ -71,7 +71,14 @@ I obleka w nadziei złote malowidła.
 </p>
 ...
 Projekt 5. Adam Mickiewicz: Wiersze
-Wykonaj stronę WWW prezentującą pięć wierszy Adama Mickiewicza. Strukturę witryny, podobnie jak w poprzednim przypadku, oznacz elementami h1, h2 oraz h3:
+Wykonaj stronę WWW prezentującą pięć wierszy Adama Mickiewicza.
+Na stronie głównej mają być umieszczone tytuły poszczególnych utworów.
+Przy każdym tytule powinien znajdować się obrazek tematycznie powiązany z utworem.
+Zarówno tytuły, jak i obrazki powinny stanowić linki do podstron z pojedynczymi utworami.
+Na każdej podstronie oprócz treści utworu, powinny znajdować się przynajmniej trzy obrazki powiązane z treścią.
+Na dole podstrony powinien znajdować się link powrotny do strony głównej.
+
+ Strukturę witryny, podobnie jak w poprzednim przypadku, oznacz elementami h1, h2 oraz h3:
 •	h1 — autor;
 •	h2 — tytuł kolekcji utworów;
 •	h3 — tytuł pojedynczego utworu.
