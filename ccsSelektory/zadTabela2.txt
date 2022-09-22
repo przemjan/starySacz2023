@@ -1,0 +1,62 @@
+Przygotuj witrynę WWW prezentującą tabelę ekstraklasy na zakończenie sezonu
+2006/2007. Zadanie wykonaj w taki sposób, by tabelę można było sortować rosnąco
+oraz malejąco według liczby zdobytych punktów.
+Projekt ten składa się z dwóch stron WWW: ekstraklasa-m.html oraz ekstraklasa-r.html.
+Pierwsza z nich, ekstraklasa-m.html, zawiera tabelę ekstraklasy posortowaną malejąco.
+Druga natomiast, ekstraklasa-r.html, prezentuje tabelę posortowaną rosnąco.
+Najpierw przygotuj plik ekstraklasa-m.html. Wykonaj tabelę przedstawioną w zarysie
+na listingu:
+<table>
+	<col id="k1" />
+	<col id="k2" />
+	<col />
+	<thead>
+		<tr id="w1">
+			<th scope="col">lp.</th>
+			<th scope="col">Klub</th>
+			<th scope="col"><a href="ekstraklasa-r.html">Punkty</a></th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+		<th scope="col">lp.</th>
+		<th scope="col">Klub</th>
+		<th scope="col"><a href="ekstraklasa-r.html">Punkty</a></th>
+		</tr>
+	</tfoot>
+	<tbody>
+		<tr>
+			<th scope="row">1.</th>
+			<td>Zagłębie Lubin</td>
+			<td>62</td>
+		</tr>
+		<tr>
+			<th scope="row">2.</th>
+			<td>GKS Bełchatów</td>
+			<td>61</td>
+		</tr>
+...
+	<tbody>
+</table>
+
+Zwróć uwagę na elementy col z identyfikatorami #k1 i #k2 oraz na pierwszy wiersz6
+z identyfikatorem #w1. Dzięki identyfikatorom #k1, #k2 oraz #w1 możesz w prosty sposób
+zmienić obramowanie tabeli:
+#k1 {
+border-right: solid 1px black;
+}
+#k2 {
+border-right: solid 1px black;
+}
+#w1 {
+border-bottom: double 4px black;
+}
+Gotowy plik ekstraklasa-m.html skopiuj, a duplikat nazwij ekstraklasa-r.html. W pliku
+ekstraklasa-r.html zmień porządek wierszy tak, by były one posortowane rosnąco względem
+ostatniej kolumny (tj. liczby zdobytych punktów).
+Na zakończenie zmień komórkę Punkty (ostatnia komórka w pierwszym wierszu).
+W pliku ekstraklasa-m.html komórka ta jest hiperłączem do pliku ekstraklasa-r.html:
+<th scope="col"><a href="ekstraklasa-r.html">Punkty</a></th>
+W pliku ekstraklasa-r.html komórka ta jest natomiast hiperłączem do pliku ekstraklasa-
+m.html:
+<th scope="col"><a href="ekstraklasa-m.html">Punkty</a></th>
