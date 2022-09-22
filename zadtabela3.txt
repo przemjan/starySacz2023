@@ -1,0 +1,44 @@
+Wykonaj tabelę prezentującą kolory opisane w specyfikacji języka JavaScript. W tabeli
+użyj elementów thead, tfoot oraz tbody.
+Zarys tabeli jest przedstawiony na listingu  poniżej:
+<table>
+<thead>
+<tr>
+<th>lp.</th>
+<th>Kolor</th>
+<th>Nazwa koloru</th>
+<th>Kod koloru</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<th>lp.</th>
+<th>Kolor</th>
+<th>Nazwa koloru</th>
+<th>Kod koloru</th>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td class="lp">1.</td>
+<td style="background: AliceBlue"></td>
+<td>AliceBlue</td>
+<td class="kod">F0F8FF</td>
+</tr>
+...
+<tbody>
+</table>
+W celu wyświetlenia koloru na stronie WWW użyj atrybutu style. Na przykład komórkę,
+która ma przedstawiać kolor o nazwie Khaki, sformatuj:
+<tr>
+<td class="lp">59.</td>
+<td style="background: Khaki"></td>
+<td>Khaki</td>
+<td class="kod">F0E68C</td>
+</tr>
+Do wymuszenia szerokości komórki użyj atrybutu width elementu td:
+td {
+border: 1px solid black;
+width: 120px;
+padding: 2px 8px;
+}
