@@ -1,0 +1,37 @@
+p{
+    color: blue;
+    background-color: aqua;
+    font-family: "Times New Roman", serif;
+    font-size: 4em
+}
+h1{
+    color: whitesmoke;
+    background-color: red;
+    font-family: Arial, sans-serif;
+
+
+}
+#inny{
+    color: green;
+    background-color: aqua;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-size: 4em
+}
+#jeszcze_inny{
+    color: red;
+    background-color: aqua;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-size: 2em
+}
+.rozowe{
+    color: pink;
+    background-color: deeppink;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-size: 2em
+}
+#niewidoczny{
+    font-style: normal;
+}
