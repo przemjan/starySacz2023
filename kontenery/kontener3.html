@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Przykład padding</title>
+    <style>
+        #kontener1{
+            background-color: red;
+            color: white;
+
+            width: 50em;
+            /*height:15em;*/
+        }
+        #kontener2{
+            background-color: blue;
+            width:20em;
+            /*height:2em;*/
+            /*padding: 0.3em 1em ;*/
+            margin: 1em;
+            padding: 0.2em 1em 4em 2em;
+            /*padding procentowy zależny od szerokości rodzica*/
+            /*padding-top: 25%;*/
+        }
+    </style>
+</head>
+<body>
+
+
+<div id="kontener1">
+    <p>Tekst w kontenerze1</p>
+    <div id="kontener2">
+        <p>Tekst w kontenerze2</p>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>

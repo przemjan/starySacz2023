@@ -1,0 +1,156 @@
+Sposoby implementacji stylów CSS
+
+1. inline (wewętrzny CSS.
+Przykładowy plik HTML:
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja strona</title>
+</head>
+<body>
+
+<p style="color: red; font-size: 1.2em;">Przykładowy tekst</p>
+
+</body>
+</html>
+
+Ogólna postać:
+
+<selektor style="cecha1: wartość; cecha2: wartość;"> treść</p>
+
+2. Wewnętrzny arkusz stylów CSS.
+Przykładowy plik HTML:
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja strona</title>
+    <style>
+        p{
+            color: red;
+            font-size: 1.2em;
+        }
+		h1{
+			color:blue;
+			text-align: center;
+		}
+    </style>
+
+</head>
+<body>
+
+<h1>Przykładowy nagłówek</h1>
+<p>Przykładowy tekst</p>
+
+</body>
+</html>
+
+Ogólna postać:
+
+<style>
+    selektor1{
+		cecha1: wartość;
+		cecha2: wartość}
+    selektor2{
+        cecha1:wartość;
+        cecha2: wartość;
+    }
+ </style>
+
+3. Zewnętrzny arkusz stylów CSS.
+Potrzebne minimum dwa pliki: .html i .css.
+
+Przykładowy plik HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja strona</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<p>Przykładowy tekst</p>
+
+</body>
+</html>
+
+Przykładowy plik CSS:
+
+p{
+    color: red;
+    font-size: 1.2em;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+
+Ogólna postać:
+Link w sekcji head:
+
+<link rel="stylesheet" href="nazwapliku.css">
+
+plik CSS:
+
+selektor1{
+	cecha1: wartość;
+	cecha2: wartość
+}
+selektor2{
+    cecha1:wartość;
+    cecha2: wartość;
+}
+
+
+KLASA i IDENTYFIKATOR
+
+Atrybut id (identyfikator)
+przykład w pliku HTML:
+
+<p id="mojaNazwa">jakiś tekst</p>
+
+odwołanie w stylu CSS:
+
+#mojaNazwa{
+	color: blue;
+}
+
+!wyjątkowy identyfikator pojedynczego elementu!
+
+wielkość liter w nazwie ma znaczenie
+nazwa ID nie może zaczynać się liczbą
+nazwa nie może zawierać whitespaców
+nazwa musi zawierać przynajmniej jeden znak
+
+Atrybut class
+
+przykład w pliku HTML:
+
+<p class="mojaKlasa">zawartość</p>
+
+odwołanie w stylu CSS:
+
+.mojaKlasa{
+	background-color:  red;
+}
+!grupowanie elementów o taki samych cechach!
+wielkość liter ma znaczenie
+
+Klasa vs ID
+
+id – unikalny element, nie może się powtarzać na stronie
+klasa – grupa elementów, którą można sformatować wspólnie
+
+Dziedziczenie i konflikty
+
+specyficzność – im bardziej szczegółowy (specyficzny) jest selektor tym ma większy priorytet
+
+selektory wewnętrzne zdefiniowane w atrybucie style są bardziej specyficzne od (i dlatego nadpisują…)
+selektory identyfikatorów są bardziej specyficzne od (i dlatego nadpisują…)
+selektory klas, które z kolei są bardziej specyficzne od (i dlatego nadpisują…)
+selektorów pojedynczych typów.

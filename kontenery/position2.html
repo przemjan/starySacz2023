@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Przykład position: absolute</title>
+    <style>
+        #kontener1{
+            background-color: red;
+            color: black;
+            /*często używa się pozycjonowanie relative elementu
+            zawierającego (kontekst pozycjonowania)*/
+            position: relative;
+            width: 20em;
+
+        }
+        #move{
+            /*względem elementu nadrzędnego*/
+            /*Jeżeli element nadrzędny nie ma pozycjonowania,
+             pozycjonowanie jest względem okna przeglądarki,
+              */
+            position:absolute;
+            top:5em;
+            left:4em;
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+<div >
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tincidunt, nunc non tincidunt tristique, urna ante tincidunt justo, a tempor felis justo nec dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent eu dignissim purus. Donec at nisi turpis. Cras laoreet ipsum lectus, quis elementum mauris egestas sed. Aenean lacinia facilisis orci a vestibulum. Nullam arcu augue, rhoncus eu viverra id, sagittis et leo. Quisque sagittis congue ante. Vestibulum porttitor gravida auctor. Proin vitae eros quam. Aenean in est id nisi tincidunt tincidunt. Sed mollis orci mauris, sed cursus tortor egestas quis. Aenean sagittis aliquam massa, et ornare nulla porttitor a.
+    </p>
+
+
+</div>
+
+<div id="kontener1">
+
+    <p>Lorem ipsum <span id="move"> dolor sit amet,</span> consectetur adipiscing elit. Nam tincidunt, nunc non tincidunt tristique, urna ante tincidunt justo, a tempor felis justo nec dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent eu dignissim purus. Donec at nisi turpis. Cras laoreet ipsum lectus, quis elementum mauris egestas sed. Aenean lacinia facilisis orci a vestibulum. Nullam arcu augue, rhoncus eu viverra id, sagittis et leo. Quisque sagittis congue ante. Vestibulum porttitor gravida auctor. Proin vitae eros quam. Aenean in est id nisi tincidunt tincidunt. Sed mollis orci mauris, sed cursus tortor egestas quis. Aenean sagittis aliquam massa, et ornare nulla porttitor a.
+        </p>
+
+
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+zad1.
+Stwórz stronę która bedzie zawierała opisy 5 obiektów .
+Każdy opis powinien znajdować się w osobnym kontenerze <div>.
+Przy każdym opisie powinna znajdować się miniaturowe zdjęcie danego obiektu,
+oblane tekstem (float).
+Każdy kontener powinien mieć inny kolor tła, najlepiej nawiązujący do kolorystki obiektu.
+
+Zad2.
+W nawiązaniu do poprzedniego zadania wykonaj menu która umożliwia przełączanie się do każdego opisu (anchor).
+Menu powinno pozostawać cały czas widoczne podczas przewijania okna (position fixed).
+
+Zad3. Do każdego opisu dołącz tytuł, który przewija się tylko w obrębie danego opisu (position sticky)
+
+Zad4. Na stronie w prawym górnym rogu umieść logo  (position absolute).
+
+Zad5. Do każdego opisu dołącz 2 zdjęcia znajdujące się  z prawej strony .
+ W tym celu kontener z opisem umieść w kontenerze zewnętrznym i do niego dołącz zdjęcia (position absolute). 
+  
+Zad6. Określ rozmiary kontenerów zawierających opisy (wysokość i szerokość) tak,
+ żeby miały takie same rozmiary.
+Użyj właściwości overflow, aby można było przewijać zawartość poszczególnych opisów.
+Zad.7 Przerób menu tak żeby było poziome. W tym celu linki umieść w liście,
+ a każdej pozycji na liście nadaj właściwość display: inline;

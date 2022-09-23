@@ -1,0 +1,210 @@
+Authoring
+
+Projekt
+Potrzeby grupy docelowej (dzieci, dorośli)
+Storyboard
+Struktura witryny
+Szablon układu
+System nawigacji
+Czcionka bezszeryfowa (Arila, Courier, Helvetica)
+
+
+
+Opcje Czcionek
+
+font-family
+font-size
+font-weight
+font-style
+font-variant
+
+1. font-family (Domyślnie: zależy od przeglądarki, dziedziczona: tak)
+
+Przykład:
+font-family: "Duru sans", Verdana, sans-serif;
+
+5 gatunków: 
+serif
+sans-serif
+monospace (stała szerokość)
+cursive (pismo ręczne)
+fantasy (fantazyjne)
+
+2. font-size (Domyślnie: medium, dziedziczona: tak)
+
+Przykład:
+font-size: 1.5em;
+
+bezwzględne: np. px (niezalecane)
+względne:
+em (np. 1.5em)
+root em (np. 1.5rem)
+procentowe (trzeba zadeklarować w arkuszu np.:  html{font-size: 100%}
+słowa kluczowe: xx-small, x-small, small, medium, large, x-large, xx-large.
+słowa kluczowe (larger, smaller)
+
+3. font-weight (Domyślnie: normal, dziedziczona: tak)
+
+Przykład:
+font-weight: bold;
+
+wartości: normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 600 | 700| 800 | 900
+najczęściej bold
+do nagłówków można zastosować normal
+
+4. font-style (Domyślnie: normal, dziedziczona: tak)
+
+Przykład:
+font-style: italic;
+
+wartości: normal | italic | oblique
+najczęściej italic
+normal jeżeli chcemy zlikwidować pochylenie (np. w zaakcentowanym tekście)
+
+5. font-variant ( Domyślnie: normal, dziedziczona: tak)
+
+Przykład:
+font-variant: small-caps;
+
+wartości: normal |small-caps
+kapitaliki
+
+Akapity
+
+blockqoute (wcięcie całego tekstu) – html!?? (do cytowania bloków tekstu) 
+margin
+łamanie wiersza <br />
+color
+line-height (wysokość linii)
+text-indent (wcięcie pierwszej linii tekstu)
+text-align (wyrównanie w poziomie)
+text-decoration (podkreślenie itp.)
+text-transform (kapitalizacja itp.)
+text-shadow
+
+Blockqoute – znacznik HTML!!!
+
+Niepoprawnie stosowany!
+Robi wcięcia :/
+
+1. margin-miejsce (Domyślnie: auto, dziedziczona: nie)
+ 
+wartości:miara długości | wartość procentowa | auto
+najlepsze jednostki względne: em lub procenty
+górny i dolny składają się (tylko większa wartość zostaje zachowana)
+ustawia marginesy 
+Przykład: {
+margin-top: 100px;
+margin-bottom: 100px;
+margin-right: 150px;
+margin-left: 80px;
+}
+
+2. margin (Domyślnie: auto, dziedziczona: nie)
+
+wartości: miara długości | wartość procentowa | auto
+najlepsze jednostki względne: em lub procenty
+górny i dolny składają się (tylko większa wartość zostaje zachowana)
+jeżeli jedna wartość – to dookoła, 
+jeżeli dwie – to pierwsza góra-dół, druga prawo-lewo
+trzy wartości – pierwsza góra, druga – prawo-lewo, trzecia – dół;
+auto - do wyśrodkowania (element musi mieć rozmiar)
+
+
+3. color (Domyślnie: zależnie od ustawień przeglądarki /użytkownika dziedziczona: tak)
+
+zmienia kolor tekstu
+Wartości: nazwa (np. fuchsia) lub wartość liczbowa (np.#666666)
+w3 color picker
+
+
+4. line-height (Domyślnie: normal dziedziczona: tak) 
+
+wartości: liczba | miara długości | wartość procentowa | normal
+Zmienia odległość między liniami (interlinia)
+Względny rozmiar 
+lepiej stosować wartość liczbową
+
+
+4. ext-indent (Domyślnie: normal dziedziczona: t4.ak)
+
+wartości: miara długości | wartość procentowa
+miara długości względna (em) lub bezwzględna (px)
+wcięcie pierwszej linii akapitu
+
+
+5. text-align (Domyślnie: start dziedziczona: tak)
+
+wartości: left | right | center | justify | start | end
+
+
+6. text-decoration (Domyślnie: none, dziedziczona: tak) 
+
+wartości: none | underline | overline | line-through | blink
+do „ozdabiania tekstu”
+do wyłączania podkreślania linków: a {text-decoration: none};
+
+
+7. text-transform (Domyślnie: none dziedziczona: tak) 
+
+
+wartości: none | capitalize | lowercase | uppercase | full-width
+dynamiczna zmiana wielkości wszystkich liter (porównaj z kodem źródłowym)
+
+
+8. text-shadow (Domyślnie: none dziedziczona: tak)
+
+wartości: przesunięcie w poziomie' 'przesunięcie w pionie' 'promień rozmycia' 'kolor' | none
+none do resetu
+ 
+h1 {
+color: green;
+text-shadow: .2em, .2em, silver;
+}
+
+9. Grupowanie selektorów
+
+p, h1, h2 {color: blue;) – jedna właściwość dla wielu różnych różnych selektorów
+selektory potomne:
+li em {color: green } – w tym wypadku dla zaakcentowanego tekstu w liście
+ol a em{color: yellow} – dla zaakcentowanych łącz na liście uporzadkowanej
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

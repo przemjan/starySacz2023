@@ -1,0 +1,16 @@
+Zad1
+Wykonaj stronę prezentującą wybrany produkt (np. samochód).
+Wybierz obrazek produktu i umieść go w osobnym kontenerze.
+Wokół głównego obrazka produktu umieść krótkie, hasłowe opisy wybranych cech (minimum 6), 
+odnoszące się do konkretnych elementów produktu (np. obok zderzaka "Nie pękający zderzak").
+Wykorzystaj pozycjonowanie aby odpowiednio umieścić napisy względem głównego kontenera.
+Każdy napis powinien być linkiem do szczegółowego opisu poniżej.
+Każdy szczegółowy opis powinien zawierać miniaturę opisywanego elementu, umieszczoną za pomocą właściwości float. 
+Wszystkie szczegółowe opisy powinny mieć taką samą wysokość (wykorzystaj właściwość overflow).
+Wykonaj tabelę zawierającą dane techniczne produktu.
+Wykonaj sekcję nav zawierającą menu umożliwiające poruszanie się po stronie. 
+Spróbuj wykorzystać pozycjonowanie aby menu było widoczne podczas przewijania
+Zadbaj o ogólny wygląd strony :)
+
+  
+ 
