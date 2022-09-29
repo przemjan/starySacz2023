@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mój formularz8</title>
+</head>
+<body>
+<p>Menu przewijane - atrybut size</p>
+<p>atrybut selected - domyślna wartość</p>
+<p>atrybut size</p>
+<p>atrybut multiple - możliwość wielokrotnego wyboru (tylko menu przewijane)</p>
+<form action="mailto:franek@kielbasa.pl" method= "post">
+    <fieldset>
+        <legend>Zapraszamy</legend>
+
+        <label for="myCityId">wybierz miasto</label>
+        <select name="city" id="myCityId" size="5" multiple>
+            <option selected>Starachowice</option>
+            <option>Nowy Sącz</option>
+            <option>Stary Sącz</option>
+            <option>Krynica</option>
+            <option>Brzesko</option>
+            <option>Tczew</option>
+            <option>Tylicz</option>
+        </select>
+
+
+        <br />
+        <br />
+        <input type="submit" value="Zatwierdź">
+        <input type="reset" value="Wyczyść dane">
+
+    </fieldset>
+
+</form>
+
+</body>
+</html>
