@@ -1,13 +1,13 @@
 Zad. 1
 Przygotuj formularz zawierający wzajemnie wykluczające się pola wyboru (radio)
 zawierający np. kraje pochodzenia, przycisk submit i przycisk reset.
-Zad 2. 
+Zad 2.
 Przygotuj formularz zawierający dwie niezależne grupy wzajemnie wykluczających się
 pól wyboru (radio), przycisk submit i przycisk reset.
 zad3.
 Przygotuj formularz zawierający pola wyboru (checkbox) pt. Jakie znasz systemy operacyjne?,
 przycisk submit i przycisk reset.
-zad.4   
+zad.4
 Przygotuj formularz zawierający kontrolkę do przekazywania plików video na serwer.
 zad.5 
 Przygotuj zawierający trzy rodzaje list (menu rozwijane, menu przewijane, menu przwijane z możliwością
