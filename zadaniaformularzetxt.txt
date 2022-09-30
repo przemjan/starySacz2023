@@ -1,0 +1,38 @@
+Zad. 1
+Przygotuj formularz zawierający wzajemnie wykluczające się pola wyboru (radio)
+zawierający np. kraje pochodzenia, przycisk submit i przycisk reset.
+Zad 2. 
+Przygotuj formularz zawierający dwie niezależne grupy wzajemnie wykluczających się
+pól wyboru (radio), przycisk submit i przycisk reset.
+zad3.
+Przygotuj formularz zawierający pola wyboru (checkbox) pt. Jakie znasz systemy operacyjne?,
+przycisk submit i przycisk reset.
+zad.4   
+Przygotuj formularz zawierający kontrolkę do przekazywania plików video na serwer.
+zad.5 
+Przygotuj zawierający trzy rodzaje list (menu rozwijane, menu przewijane, menu przwijane z możliwością
+wielokrotnego wyboru)(kontrolka select) - np. wybór ulubionego miesiąca. 
+Wykorzystaj elementy fieldset oraz legend.
+zad.6 
+Przygotuj formularz pobierający dane osobowe. Wykorzystaj:
+-kontrolkę text do pobierania imienia, nazwiska, ulicy, maila itp;
+-kontrolkę radio do pobierania wykształcenia (podstawowe, zawodowe, średnie, wyższe)
+-kontrolkę checkbox do pobrania zgody na przetwarzanie danych osobowych, otrzymywania newslettera,
+przesyłanie materiałów reklamowych partnerów;
+-kontrolkę textarea : "parę słów o sobie";
+-kontrolkę select do wybrania miejscowości w adresie;
+-kontrolkę file do przesłania avataru;
+
+Kontrolki dot. imienia i nazwiska, adresu, wykształcenia i zgody na przetwarzanie danych osobowych
+powinny być obowiązkowe.
+
+zad.7 W połączeniu ze stroną z poprzednich zajęć przygotuj strony z formularzami :
+1. formularz związany z zakupami (kolor obudowy, nazwisko, adres,  wybór sposobu płatności, 
+wybór sposobu wysyłki, adres wysyłki, zgody na przetwarzanie danych osobowych, otrzymywania newslettera,
+przesyłanie materiałów reklamowych partnerów itp.)  
+2. formularz związany z jednym wybranym sposobem płatności 
+(np. Karta kredytowa: Numer karty, numer CVV2, data ważności, imię i nazwisko posiadacza)
+3. formularz badający zadowolenie z zakupów: nr zamówienia, data dostawy, terminowość dostawy, stan przedmiotu,
+zgodność przedmiotu z opisem, kontakt ze sklepem, parę słów od siebie itp.; 
+
+
